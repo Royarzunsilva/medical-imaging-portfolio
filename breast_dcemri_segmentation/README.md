@@ -1,4 +1,4 @@
-# Breast Tumor Segmentation on DCE-MRI — and a Contaminated Public Benchmark
+# Breast Tumor Segmentation on DCE-MRI — and Choosing a Fair Baseline
 
 Two connected pieces of work on the public
 [MAMA-MIA](https://www.synapse.org/Synapse:syn60868042) breast DCE-MRI dataset
@@ -7,12 +7,15 @@ already de-identified):
 
 1. **A 3D tumor segmentation model** trained under the dataset's official
    train/test split and scored once on the closed test set.
-2. **A benchmark-integrity finding**: the pretrained weights the dataset
-   distributes were trained on **80.1% of its own official test split**, which
-   inflates every comparison made against them.
+2. **A check on the comparison baseline before using it.** The distributed
+   `fold_0` weights and the official test split share a substantial number of
+   cases, so scores from that checkpoint on those cases reflect data it had
+   already seen. A like-for-like comparison needs an out-of-fold estimate
+   instead.
 
-The second piece is the one that matters. It also *removed* the apparent
-advantage of the first — that reversal is reported below rather than buried.
+The second piece is the methodological one, and it is what makes the first
+interpretable. It also *removed* the apparent advantage of my own model — that
+reversal is reported below rather than quietly dropped.
 
 ---
 
@@ -46,7 +49,7 @@ individually rather than taken on trust.
 Performance is strongly cohort-dependent — DUKE is markedly harder than the
 rest for every model tested, including the released weights:
 
-| Cohort | n | This model | Released weights (leakage-free) |
+| Cohort | n | This model | Released weights (out-of-fold) |
 |---|---:|---:|---:|
 | DUKE | 91 | 0.6216 | 0.6566 |
 | ISPY1 | 67 | 0.7667 | 0.7312 |
@@ -61,12 +64,21 @@ patient and mask, not independent samples. Negative results are kept in
 
 ---
 
-## 2. The benchmark contamination finding
+## 2. Checking the baseline before using it
 
 MAMA-MIA ships both an official 1,200 / 306 train/test split **and** pretrained
-nnU-Net weights. The two artifacts are mutually incompatible.
+nnU-Net weights. The two artifacts were produced for different purposes, and
+their case lists overlap — which matters if you score the weights on that split
+and treat the result as an out-of-sample baseline.
 
-### How it was found
+Worth stating plainly: the released materials are a substantial contribution and
+this is not a criticism of the dataset, which is well documented and openly
+distributed. The per-fold metrics that make the check below possible are
+published by the authors themselves. The point is narrower — a checkpoint and a
+test split that share cases cannot be combined into a like-for-like comparison
+without an out-of-fold correction.
+
+### How it surfaced
 
 Each released fold ships a per-case validation metrics CSV. In nnU-Net, a
 fold's validation list is exactly the complement of its training set. Crossing
@@ -97,7 +109,7 @@ checks rule that out:
 - **Group comparability.** The strata do not differ in cohort composition
   (χ², p = 0.231) or ground-truth tumor volume (5.3 vs 6.4 mL, p = 0.466).
 
-![Contamination effect](assets/benchmark_contamination.png)
+![Split overlap: seen vs unseen cases](assets/benchmark_contamination.png)
 
 ![Per-case distributions](assets/seen_vs_unseen_distributions.png)
 
@@ -107,25 +119,27 @@ The five released folds partition the corpus, so every one of the 306 test
 cases appears in exactly one fold's validation list (61 + 51 + 62 + 55 + 77 =
 306). Each case can therefore be scored with the fold that did *not* train on
 it, using the authors' own published per-case metrics. That out-of-fold
-aggregate is the leakage-free figure:
+aggregate is the like-for-like figure:
 
 | On the 306 official test cases | Dice mean | Median | Dice < 0.5 |
 |---|---:|---:|---:|
-| Released weights, contaminated `fold_0` | 0.7815 | 0.8526 | 30 |
-| **Released weights, leakage-free out-of-fold** | **0.7350** | 0.8210 | 46 |
+| Released weights, scored with `fold_0` | 0.7815 | 0.8526 | 30 |
+| **Released weights, out-of-fold** | **0.7350** | 0.8210 | 46 |
 | This model (S1) | 0.7391 | 0.8162 | 43 |
 
-Contamination is worth roughly **4.7 Dice points** of headline performance for
-the released checkpoint on this split.
+The difference between the two ways of scoring the released checkpoint on this
+split is roughly **4.7 Dice points** — which is the size of the correction, not a
+statement about the checkpoint's quality on data it has not seen.
 
 ---
 
 ## 3. What this does to my own result — stated plainly
 
-Against the **contaminated** checkpoint, my model looked clearly worse:
-−0.0423, p = 3.6 × 10⁻⁸. That conclusion was an artifact of the leakage.
+Scored the naive way, my model looked clearly worse than the released
+checkpoint: −0.0423, p = 3.6 × 10⁻⁸. That conclusion does not survive the
+correction.
 
-Against the **leakage-free out-of-fold** baseline, the comparison is:
+Against the **out-of-fold** baseline, the comparison is:
 
 > **+0.0042, Wilcoxon p = 0.17 — no significant difference.**
 > Per-case, counting a difference of |ΔDice| ≤ 0.01 as a tie: 135 wins,
@@ -134,25 +148,25 @@ Against the **leakage-free out-of-fold** baseline, the comparison is:
 **This model does not beat the baseline. It ties it.** Two input channels
 bought no measurable advantage over the released approach, and I am not
 claiming otherwise. The contribution here is not a better segmenter; it is
-having established that the published comparison point was inflated, and by
-how much.
+having worked out what the right comparison point actually was — a correction
+that cuts against my own result as readily as for it.
 
-The leakage-free out-of-fold figure (0.7350) also sits below the
-0.762 ± 0.211 that the dataset paper reports as its five-fold
-cross-validation result.
+The out-of-fold figure (0.7350) also sits close to the 0.762 ± 0.211 the
+dataset paper reports as its five-fold cross-validation result, which is the
+consistency you would expect once like is compared with like.
 
 ---
 
 ## 4. Why this generalizes beyond one dataset
 
-The failure mode is structural, not a mistake of bad faith: the weights were
-trained on the whole corpus to maximize clinical utility, and the official
-split was published separately, with no warning that the two do not compose.
-Any downstream group that evaluates on that split and compares against those
-weights is measuring memorization, not generalization — and would have no way
-of noticing.
+The situation is structural rather than anyone's error: training weights on the
+whole corpus maximizes their clinical usefulness, publishing an official split
+serves a different and equally reasonable purpose, and nothing about either
+artifact signals that the two were not meant to be combined. A downstream group
+comparing against those weights on that split would have no obvious way of
+noticing.
 
-The audit is cheap and reusable wherever a benchmark ships both a split and
+The check is cheap and reusable wherever a benchmark ships both a split and
 pretrained weights:
 
 1. Recover each fold's training set from the artifacts it publishes (for
@@ -161,7 +175,7 @@ pretrained weights:
 3. Stratify the evaluation by seen/unseen and test the gap.
 4. **Run a negative control** — a model that saw none of the test cases. Without
    it, a seen/unseen gap is confounded with case difficulty and proves nothing.
-5. If the folds partition the corpus, recover a leakage-free estimate
+5. If the folds partition the corpus, recover a like-for-like estimate
    out-of-fold instead of discarding the benchmark.
 
 ## Status and reproducibility

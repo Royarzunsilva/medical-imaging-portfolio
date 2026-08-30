@@ -1,13 +1,12 @@
 # Airway Coach — ML support for videolaryngoscopy strategy
 
-A peer-reviewed clinical machine learning study, and the external validation that
-followed it. The published model reaches **AUC 0.95 / 92% accuracy** on a held-out
-test set at a single centre. A subsequent three-centre analysis found that its core
-ultrasound signal **does not transport** to the other two centres. Both halves are in
-this README, in that order, because the second half is the part that says something
-about how the work was done.
+A peer-reviewed clinical machine learning study: a multimodal model combining clinical
+variables and point-of-care airway ultrasound to anticipate which videolaryngoscopy
+strategy a patient will require. Published in **BMC Anesthesiology**, reaching
+**AUC 0.95 / 92% accuracy** on an independent test set — with the per-class results
+that qualify that number reported alongside it.
 
-![Published single-centre performance versus the cross-centre external validation](./assets/poc_vs_external_validation.png)
+![Published performance: aggregate metrics and per-class F1 scores](./assets/published_performance.png)
 
 ## The published study
 
@@ -77,56 +76,28 @@ soft-tissue distances, BMI and age. The authors' own conclusion is that the stud
 demonstrates **feasibility** and requires further evaluation in independent
 populations before any clinical implementation.
 
-## What external validation did to it
-
-The obvious next step for a single-centre model with an AUC of 0.95 is to check
-whether it survives contact with other centres. A follow-up multicentre analysis
-(**n = 557**, three centres: Navarra, Braga, Cluj-Napoca) did that.
-
-It does not survive. The univariate AUC of the core ultrasound predictors:
-
-| Centre | Univariate AUC of the core ultrasound predictors |
-|---|---|
-| Navarra (original centre) | **0.93 – 0.97** |
-| Braga | **0.52 – 0.63** |
-| Cluj-Napoca | **0.51 – 0.59** |
-
-Outside the originating centre, the predictors are at or barely above chance. The
-variable × centre interaction is **p < 0.001** and survives standardising each
-variable within its own centre, so this is not a scaling artefact.
-
-The interesting part is the diagnosis. The natural excuse — "different populations"
-— does not hold: age and BMI give AUC 0.53–0.60 at *every* centre, i.e. the case mix
-is comparable across sites. What differs is the measurement. The evidence points to
-a lack of harmonisation in how the ultrasound parameters are acquired: probe
-placement, landmark definition, and operator convention were standardised inside one
-centre and not across centres. The predictive signal in the published model is
-partly a property of one imaging protocol rather than of anatomy.
-
-That is a **measurement-transportability** failure, not a modelling failure, and no
-amount of regularisation, resampling or architecture search fixes it. The fix is
-upstream: a shared acquisition protocol and inter-rater agreement on the ultrasound
-measurements, before any model is refit.
-
-> **Status note.** The multicentre analysis is **in preparation / preprint stage and
-> has not been peer reviewed or published.** The only published output of this line
-> of work is the BMC Anesthesiology paper cited above. The cross-centre numbers are
-> reported here as work in progress and should be read as such.
-
 ## Why this is in the portfolio
 
-Not because of the 0.95. Because of the sequence:
+Not because of the 0.95. Three things about how the study was built matter more than
+the headline number.
 
-1. **Publish the finding** in a peer-reviewed journal, with per-class metrics that
-   show where the model is weak rather than only the aggregate that flatters it.
-2. **Subject it to external validation** on centres that had no part in developing it.
-3. **Report that it did not generalise**, and identify the mechanism.
+**The outcome was defined around a decision, not around a proxy.** Airway assessment
+scores are traditionally validated against the glottic view — what the operator can
+see. That is not what a clinician actually needs to know before starting. The
+Grade 0/1/2 label used here is defined by *what the procedure required*: whether an
+adjunct was needed, whether the device had to be changed. A model predicting that is
+answering the question the anaesthetist is actually asking.
 
-Step 3 is the one most commonly skipped. A single-centre AUC of 0.95 in clinical ML
-is a hypothesis, not a product, and the honest way to find out which one you have is
-to run the test that can falsify it. The value of this project is a complete
-scientific cycle with a negative external result reported rather than buried — and a
-concrete, actionable cause (protocol harmonisation) rather than a shrug.
+**The per-class metrics are reported, not just the aggregate.** An AUC of 0.95 and 92%
+accuracy look conclusive. The F1 scores of 0.75 and 0.67 on the minority classes say
+something more useful, and less flattering: the two grades that would change clinical
+behaviour are the two the model handles worst. Reporting both is the difference
+between a result and a claim.
+
+**The limits are stated by the authors themselves.** The paper's own conclusion is
+that this demonstrates feasibility and requires evaluation in independent populations
+before any clinical implementation. A single-centre AUC of 0.95 in clinical ML is a
+hypothesis, not a product, and the paper says so.
 
 ## Scope and restrictions
 
@@ -147,5 +118,5 @@ concrete, actionable cause (protocol harmonisation) rather than a shrug.
 airway_coach_videolaryngoscopy/
 ├── README.md
 └── assets/
-    └── poc_vs_external_validation.png   # published performance vs. cross-centre AUC
+    └── published_performance.png        # aggregate metrics and per-class F1 scores
 ```

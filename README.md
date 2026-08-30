@@ -40,15 +40,15 @@ adults: **AUC 0.95, accuracy 92%** on an independent test set — with per-class
 0.75 and 0.67 on the two minority classes, which are precisely the two that would
 change clinical behaviour.
 
-The companion story is the reason it belongs here: a later **multicentre study (n=557,
-three countries)** found the ultrasound signal **does not transport** — AUC 0.93–0.97 at
-the originating centre, 0.51–0.63 elsewhere, with a variable×centre interaction
-surviving within-centre standardisation. Publish, validate externally, report the
-negative. Step three is the one usually skipped.
+What makes it worth reading is how the target was defined. Airway scores are usually
+validated against the glottic view — what the operator can see. This one predicts what
+the procedure actually *required*: whether an adjunct was needed, whether the device had
+to be swapped. And the per-class numbers are reported next to the aggregate, which is
+where a 0.95 stops looking conclusive.
 
 ---
 
-## Benchmarking and model auditing
+## Evaluation and benchmarking
 
 ### [Breast BI-RADS — Multiple-Instance Learning](./breast_birads_mil_radiomics/)
 Ordinal MIL over per-patient bags for BI-RADS assessment. Deployed head reaches
@@ -58,22 +58,24 @@ transfer at all: imported cut-offs send 94% of cases to the urgent lane; recalib
 locally, PPV 0.70 at 3.2% miss.
 
 Two pre-registered decision rules, both honoured and both reported including the arm
-that lost. And the finding that reframes the field's usual numbers: with only the 23
-**shape** features, the human-ROI arm reaches 0.923 of its 0.940 — meaning **the
-annotator's judgement is leaking through the mask**. Whoever drew a spiculated margin
-already knew it was one. That 0.94 is not reachable in production.
+that lost. And an ablation worth knowing about before trusting any ROI-based number,
+my own included: with only the 23 **shape** features, the human-ROI arm reaches 0.923
+of its 0.940 — so much of what the classifier reads is the outline the radiologist
+drew. Whoever draws a spiculated margin already knew it was one. That 0.94 says more
+about the annotation than about what is reachable in production.
 
 *Results and methodology only — implementation withheld.*
 
-### [Breast DCE-MRI Segmentation + Benchmark Contamination](./breast_dcemri_segmentation/)
-An nnU-Net segmenter (Dice **0.7391**, n=306 closed test set) and, more importantly,
-the discovery that **the public MAMA-MIA challenge checkpoint was trained on 80.1% of
-its own official test set**. Seen cases 0.7995 vs unseen 0.7092 (p = 0.018); a negative
-control shows no such gap.
+### [Breast DCE-MRI Segmentation + Choosing a Fair Baseline](./breast_dcemri_segmentation/)
+An nnU-Net segmenter (Dice **0.7391**, n=306 closed test set) and, more usefully, the
+check that came before using the public baseline: the released checkpoint and the
+official test split share cases, so scoring one on the other measures something other
+than generalisation. Seen 0.7995 vs unseen 0.7092 (p = 0.018), with a negative control
+ruling out case difficulty.
 
-Consequence, stated plainly: against the honest out-of-fold baseline our own model
-**ties** (+0.004, p = 0.17). The contribution is not beating the benchmark — it is
-showing the benchmark was inflated.
+Recomputed out-of-fold, the comparison changes direction — and my own model goes from
+apparently losing to **tying** (+0.004, p = 0.17). The contribution is establishing what
+the right comparison point was, including when that works against me.
 
 ### [Head & Neck GTV — Custom Architecture vs. nnU-Net](./hecktor_head_neck_segmentation/)
 **MiniUNet3D** (19 M parameters, custom) benchmarked against **nnU-Net v2** (88 M) on

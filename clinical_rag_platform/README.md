@@ -55,7 +55,7 @@ Core engine (`engine/`), domain packs (`domains/<case>/`):
 ### 1. Clinical domain expertise is the actual differentiator
 
 The schema, the curated records and the corrections applied to the model's output were produced
-**manually, by hand, by the author — a physician practising in radiation oncology — applying his
+**manually, by hand, by the author — a physician with three years of radiation oncology training — applying his
 own clinical experience.** None of it is auto-generated. This is the core claim of the project
 and it is deliberate: the moat here is not the model and not the retrieval algorithm. The
 fine-tuning runs in seconds on commodity hardware and anyone can reproduce it. What is not

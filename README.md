@@ -1,7 +1,8 @@
 # Applied AI — Medical Imaging & Clinical ML
 
 Seven projects in applied machine learning for medicine, built and evaluated by a
-**radiation oncologist working as an ML engineer**. The combination is the point: the
+**physician with three years of radiation oncology training, working as an ML
+engineer**. The combination is the point: the
 same person defines the clinical target, trains the model, and then attacks the result
 until it either survives or is reported as failing.
 
@@ -131,5 +132,6 @@ Validation MAE **0.0374** (epoch 59). The lighter variant is **7.3× smaller** (
 
 ## Author
 
-Physician (radiation oncology) and ML engineer. Medical image segmentation, model
-evaluation, and clinical deployment — DICOM/NIfTI, nnU-Net, PyTorch, CUDA.
+Physician — three years of radiation oncology training — and ML engineer. Medical image
+segmentation, model evaluation, and clinical deployment — DICOM/NIfTI, nnU-Net,
+PyTorch, CUDA.

@@ -1,0 +1,29 @@
+{
+  "study": "external validation of the ultrasound radiomics model, no retraining and no refitting",
+  "source_domain": "BUS-BRA (Brazil, 1512 development images)",
+  "target_domain": "BrEaST-Lesions-USG (Poland, 252 cases)",
+  "auc_birads_ge4_internal_holdout": 0.940,
+  "auc_birads_ge4_external": 0.773,
+  "auc_birads_ge4_external_ci95": [0.701, 0.839],
+  "quadratic_weighted_kappa_internal": 0.720,
+  "quadratic_weighted_kappa_external": 0.333,
+  "within_one_category_internal": 0.906,
+  "within_one_category_external": 0.825,
+  "auc_for_pathology_proven_malignancy_external": 0.810,
+
+  "observed_malignancy_rate_by_category_external": {
+    "model": {
+      "BI-RADS_2": {"rate": 0.073, "n": 41},
+      "BI-RADS_3": {"rate": 0.000, "n": 11},
+      "BI-RADS_4": {"rate": 0.271, "n": 85},
+      "BI-RADS_5": {"rate": 0.626, "n": 115}
+    },
+    "local_radiologist": {
+      "BI-RADS_2": {"rate": 0.000, "n": 30},
+      "BI-RADS_3": {"rate": 0.000, "n": 37},
+      "BI-RADS_4": {"rate": 0.417, "n": 139},
+      "BI-RADS_5": {"rate": 0.870, "n": 46}
+    }
+  },
+  "reading": "Risk ordering survives (malignancy AUC 0.810) but category assignment does not: the model over-assigns BI-RADS 5 (115 predicted vs 46 real) and its category 5 holds 62.6% malignancy against the local radiologist's 87.0%."
+}

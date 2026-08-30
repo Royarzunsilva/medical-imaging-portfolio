@@ -1,0 +1,2144 @@
+[
+ {
+  "case": "DUKE_019.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6647808537011728,
+  "hd95_mm": 135.2968447165758,
+  "gt_volume_ml": 21.327861790393946
+ },
+ {
+  "case": "DUKE_021.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.16927394626058936,
+  "hd95_mm": 218.41387132934486,
+  "gt_volume_ml": 7.975363606340817
+ },
+ {
+  "case": "DUKE_028.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8724230445026117,
+  "hd95_mm": 158.60828443251316,
+  "gt_volume_ml": 121.036376953125
+ },
+ {
+  "case": "DUKE_044.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.790482485128883,
+  "hd95_mm": 6.070504188537598,
+  "gt_volume_ml": 2.832461733766195
+ },
+ {
+  "case": "DUKE_046.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8223818939340443,
+  "hd95_mm": 8.279854561374966,
+  "gt_volume_ml": 43.45205144036793
+ },
+ {
+  "case": "DUKE_055.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8490839594042441,
+  "hd95_mm": 2.8809514360099207,
+  "gt_volume_ml": 1.4650462197924643
+ },
+ {
+  "case": "DUKE_057.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7861641118124436,
+  "hd95_mm": 8.192400745727083,
+  "gt_volume_ml": 128.25106805775098
+ },
+ {
+  "case": "DUKE_060.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7881585942527771,
+  "hd95_mm": 75.65653554214563,
+  "gt_volume_ml": 7.705929534845503
+ },
+ {
+  "case": "DUKE_069.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8209769402429953,
+  "hd95_mm": 6.049112376442918,
+  "gt_volume_ml": 1.682522258731922
+ },
+ {
+  "case": "DUKE_086.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6034091756012904,
+  "hd95_mm": 261.6938989130459,
+  "gt_volume_ml": 23.66455078125
+ },
+ {
+  "case": "DUKE_099.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6575730735163862,
+  "hd95_mm": 172.86878260765542,
+  "gt_volume_ml": 6.861737563554198
+ },
+ {
+  "case": "DUKE_101.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.39976467127518756,
+  "hd95_mm": 206.72425893842757,
+  "gt_volume_ml": 4.600162999074272
+ },
+ {
+  "case": "DUKE_116.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7185821697099892,
+  "hd95_mm": 174.94901802629775,
+  "gt_volume_ml": 10.490650248003487
+ },
+ {
+  "case": "DUKE_120.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8194112967382657,
+  "hd95_mm": 3.564725795572652,
+  "gt_volume_ml": 3.5159835137046755
+ },
+ {
+  "case": "DUKE_134.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7834731283007145,
+  "hd95_mm": 145.28824846345736,
+  "gt_volume_ml": 0.6332036565239423
+ },
+ {
+  "case": "DUKE_136.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5963785925665848,
+  "hd95_mm": 180.85308056359577,
+  "gt_volume_ml": 2.190805430321058
+ },
+ {
+  "case": "DUKE_157.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8929909353830625,
+  "hd95_mm": 133.45019860158442,
+  "gt_volume_ml": 11.645059687093054
+ },
+ {
+  "case": "DUKE_163.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.832994859427556,
+  "hd95_mm": 150.34286602809235,
+  "gt_volume_ml": 41.88847425019566
+ },
+ {
+  "case": "DUKE_167.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5700934579439252,
+  "hd95_mm": 70.88716698715353,
+  "gt_volume_ml": 7.486414083560771
+ },
+ {
+  "case": "DUKE_189.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7150222306309715,
+  "hd95_mm": 151.52322069676572,
+  "gt_volume_ml": 12.425272916832935
+ },
+ {
+  "case": "DUKE_205.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8885580071549515,
+  "hd95_mm": 4.788893141490177,
+  "gt_volume_ml": 36.464702086571
+ },
+ {
+  "case": "DUKE_234.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7494971437766513,
+  "hd95_mm": 157.40027122944312,
+  "gt_volume_ml": 18.66876906876962
+ },
+ {
+  "case": "DUKE_237.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8332879324434759,
+  "hd95_mm": 113.69052649327386,
+  "gt_volume_ml": 13.249447288803756
+ },
+ {
+  "case": "DUKE_244.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8449612403100775,
+  "hd95_mm": 235.36208921967855,
+  "gt_volume_ml": 3.9923326785700257
+ },
+ {
+  "case": "DUKE_253.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5472460022613471,
+  "hd95_mm": 168.91866511331253,
+  "gt_volume_ml": 3.6395263671875
+ },
+ {
+  "case": "DUKE_271.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.4284240687679083,
+  "hd95_mm": 157.68798112212102,
+  "gt_volume_ml": 13.422079978415743
+ },
+ {
+  "case": "DUKE_283.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.2625952687320598,
+  "hd95_mm": 94.25438005306425,
+  "gt_volume_ml": 3.2990962828553667
+ },
+ {
+  "case": "DUKE_285.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8932216878308709,
+  "hd95_mm": 5.021428078889155,
+  "gt_volume_ml": 17.03558373892653
+ },
+ {
+  "case": "DUKE_287.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6739421563329653,
+  "hd95_mm": 26.826024845697773,
+  "gt_volume_ml": 22.837794271342947
+ },
+ {
+  "case": "DUKE_303.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5636689389966789,
+  "hd95_mm": 226.22953346022175,
+  "gt_volume_ml": 7.412772942886066
+ },
+ {
+  "case": "DUKE_307.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.43206967213114755,
+  "hd95_mm": 236.3261157611635,
+  "gt_volume_ml": 8.024384954556002
+ },
+ {
+  "case": "DUKE_317.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.46786893573787147,
+  "hd95_mm": 225.98001776950014,
+  "gt_volume_ml": 11.481764879724693
+ },
+ {
+  "case": "DUKE_323.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8347770969786604,
+  "hd95_mm": 2.200000047683716,
+  "gt_volume_ml": 2.5817973040593194
+ },
+ {
+  "case": "DUKE_346.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6423774740810556,
+  "hd95_mm": 151.7185170854963,
+  "gt_volume_ml": 32.613446119104744
+ },
+ {
+  "case": "DUKE_353.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.20296267035354532,
+  "hd95_mm": 182.1641328105594,
+  "gt_volume_ml": 10.369810965933983
+ },
+ {
+  "case": "DUKE_377.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6239244031415251,
+  "hd95_mm": 130.8191576132856,
+  "gt_volume_ml": 5.144199350866933
+ },
+ {
+  "case": "DUKE_383.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.841744074576047,
+  "hd95_mm": 15.076198318741769,
+  "gt_volume_ml": 109.39938097978421
+ },
+ {
+  "case": "DUKE_385.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.4341224346912878,
+  "hd95_mm": 207.18954852748323,
+  "gt_volume_ml": 31.815290261320758
+ },
+ {
+  "case": "DUKE_397.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.2807863839082552,
+  "hd95_mm": 147.26023709408796,
+  "gt_volume_ml": 1.697960874122209
+ },
+ {
+  "case": "DUKE_398.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8307692307692308,
+  "hd95_mm": 180.8108833601399,
+  "gt_volume_ml": 1.055584369957143
+ },
+ {
+  "case": "DUKE_408.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.02858702665144672,
+  "hd95_mm": 71.20004634559193,
+  "gt_volume_ml": 0.3535158357117325
+ },
+ {
+  "case": "DUKE_414.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8411119736076073,
+  "hd95_mm": 9.648600220680237,
+  "gt_volume_ml": 11.25353661513583
+ },
+ {
+  "case": "DUKE_420.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.9568990782886434,
+  "hd95_mm": 103.09778178980245,
+  "gt_volume_ml": 313.88813747279346
+ },
+ {
+  "case": "DUKE_424.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7044445961630368,
+  "hd95_mm": 230.69090991356242,
+  "gt_volume_ml": 3.484754173040608
+ },
+ {
+  "case": "DUKE_428.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7121638421775829,
+  "hd95_mm": 157.0766259548699,
+  "gt_volume_ml": 4.262755305304822
+ },
+ {
+  "case": "DUKE_431.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.4701627486437613,
+  "hd95_mm": 146.7766091068238,
+  "gt_volume_ml": 1.2522187997587024
+ },
+ {
+  "case": "DUKE_438.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.18403686294486768,
+  "hd95_mm": 162.6861886700977,
+  "gt_volume_ml": 3.1357179968000164
+ },
+ {
+  "case": "DUKE_457.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5972534894191805,
+  "hd95_mm": 226.39592443645896,
+  "gt_volume_ml": 6.423402873598505
+ },
+ {
+  "case": "DUKE_470.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5241013582810116,
+  "hd95_mm": 230.80887842055535,
+  "gt_volume_ml": 6.396178706673667
+ },
+ {
+  "case": "DUKE_480.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7747924899317439,
+  "hd95_mm": 186.87954781653198,
+  "gt_volume_ml": 10.936490701444278
+ },
+ {
+  "case": "DUKE_482.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.47914125396438156,
+  "hd95_mm": 15.729984205476443,
+  "gt_volume_ml": 1.8328857421875
+ },
+ {
+  "case": "DUKE_508.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7446820420958352,
+  "hd95_mm": 108.90701880750099,
+  "gt_volume_ml": 15.314986723392298
+ },
+ {
+  "case": "DUKE_514.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.9242005981136416,
+  "hd95_mm": 1.0,
+  "gt_volume_ml": 4.041308356658459
+ },
+ {
+  "case": "DUKE_525.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.3916057999660279,
+  "hd95_mm": 239.12564570018185,
+  "gt_volume_ml": 7.400249866008418
+ },
+ {
+  "case": "DUKE_539.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6825547115405306,
+  "hd95_mm": 9.517894059758373,
+  "gt_volume_ml": 23.89711838203937
+ },
+ {
+  "case": "DUKE_541.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6991774954981262,
+  "hd95_mm": 178.745633542142,
+  "gt_volume_ml": 4.346122750418535
+ },
+ {
+  "case": "DUKE_559.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.37068086552622637,
+  "hd95_mm": 182.90613723142812,
+  "gt_volume_ml": 12.470556156024436
+ },
+ {
+  "case": "DUKE_560.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.4913264296550359,
+  "hd95_mm": 251.13659919131624,
+  "gt_volume_ml": 12.676776882284589
+ },
+ {
+  "case": "DUKE_562.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8865796525863232,
+  "hd95_mm": 208.55310745701087,
+  "gt_volume_ml": 15.211181640625
+ },
+ {
+  "case": "DUKE_567.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.9022382180756576,
+  "hd95_mm": 159.10574178049356,
+  "gt_volume_ml": 20.484135820466122
+ },
+ {
+  "case": "DUKE_568.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.44325388147824185,
+  "hd95_mm": 203.42826413697648,
+  "gt_volume_ml": 7.427604121152576
+ },
+ {
+  "case": "DUKE_573.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6141155753278651,
+  "hd95_mm": 142.50607233138294,
+  "gt_volume_ml": 4.118235828222403
+ },
+ {
+  "case": "DUKE_585.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.4405126916310631,
+  "hd95_mm": 166.8262016504132,
+  "gt_volume_ml": 2.0658446748515082
+ },
+ {
+  "case": "DUKE_592.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7426278044608198,
+  "hd95_mm": 159.0565935063892,
+  "gt_volume_ml": 28.132344997014922
+ },
+ {
+  "case": "DUKE_605.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6492159325742534,
+  "hd95_mm": 134.93017234427379,
+  "gt_volume_ml": 7.128294838765988
+ },
+ {
+  "case": "DUKE_609.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5599838037945396,
+  "hd95_mm": 113.47324147950889,
+  "gt_volume_ml": 5.0725217183697175
+ },
+ {
+  "case": "DUKE_614.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5698076411665632,
+  "hd95_mm": 150.4251427067766,
+  "gt_volume_ml": 8.702563308008015
+ },
+ {
+  "case": "DUKE_615.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5097385808675667,
+  "hd95_mm": 180.5203123130857,
+  "gt_volume_ml": 2.449749724218728
+ },
+ {
+  "case": "DUKE_640.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.40434681543468154,
+  "hd95_mm": 182.5492634640839,
+  "gt_volume_ml": 1.45390625
+ },
+ {
+  "case": "DUKE_642.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8687087087087088,
+  "hd95_mm": 155.78945248710923,
+  "gt_volume_ml": 1.7920743222370537
+ },
+ {
+  "case": "DUKE_651.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.035555555555555556,
+  "hd95_mm": 179.8933729968726,
+  "gt_volume_ml": 0.30071250651776793
+ },
+ {
+  "case": "DUKE_663.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6809681406754655,
+  "hd95_mm": 141.33500076068046,
+  "gt_volume_ml": 7.72816237591948
+ },
+ {
+  "case": "DUKE_670.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.720151484951166,
+  "hd95_mm": 123.45806841376404,
+  "gt_volume_ml": 1.1797461663234752
+ },
+ {
+  "case": "DUKE_687.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8623491750800295,
+  "hd95_mm": 1.4827986171628498,
+  "gt_volume_ml": 2.9570914834338358
+ },
+ {
+  "case": "DUKE_691.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.168220694157005,
+  "hd95_mm": 119.20785158228125,
+  "gt_volume_ml": 26.955239133889684
+ },
+ {
+  "case": "DUKE_718.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.5240766218647476,
+  "hd95_mm": 182.53180448497804,
+  "gt_volume_ml": 22.811919747359596
+ },
+ {
+  "case": "DUKE_754.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6208755742871246,
+  "hd95_mm": 180.6168278419088,
+  "gt_volume_ml": 6.36944593883527
+ },
+ {
+  "case": "DUKE_757.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.9460463013787092,
+  "hd95_mm": 1.3718810432929678,
+  "gt_volume_ml": 6.957229295916323
+ },
+ {
+  "case": "DUKE_775.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6029450261780105,
+  "hd95_mm": 17.520685917266242,
+  "gt_volume_ml": 10.151254047824853
+ },
+ {
+  "case": "DUKE_780.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.34013529998890984,
+  "hd95_mm": 170.78892680085804,
+  "gt_volume_ml": 1.953125
+ },
+ {
+  "case": "DUKE_789.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.21416288444732615,
+  "hd95_mm": 245.19073136104012,
+  "gt_volume_ml": 5.300590232046157
+ },
+ {
+  "case": "DUKE_799.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8309576756224709,
+  "hd95_mm": 126.39822339424812,
+  "gt_volume_ml": 6.094388045705098
+ },
+ {
+  "case": "DUKE_817.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.24129121274837576,
+  "hd95_mm": 171.59454251827933,
+  "gt_volume_ml": 35.50476107359864
+ },
+ {
+  "case": "DUKE_832.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8160516258379801,
+  "hd95_mm": 150.01153782190056,
+  "gt_volume_ml": 7.097628937338065
+ },
+ {
+  "case": "DUKE_836.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.11611652466710883,
+  "hd95_mm": 125.05540212918532,
+  "gt_volume_ml": 0.5857971434032508
+ },
+ {
+  "case": "DUKE_839.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.7644420443124372,
+  "hd95_mm": 7.784442546363507,
+  "gt_volume_ml": 17.964867077011444
+ },
+ {
+  "case": "DUKE_847.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6939274080967892,
+  "hd95_mm": 157.46794349911895,
+  "gt_volume_ml": 3.8846073355150206
+ },
+ {
+  "case": "DUKE_869.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.8863122895264077,
+  "hd95_mm": 7.5031810925620235,
+  "gt_volume_ml": 16.41665237217032
+ },
+ {
+  "case": "DUKE_882.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.82509537939805,
+  "hd95_mm": 2.281618010193527,
+  "gt_volume_ml": 4.6927166928512385
+ },
+ {
+  "case": "DUKE_883.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.3883212387447516,
+  "hd95_mm": 204.28506851763353,
+  "gt_volume_ml": 5.783260280618177
+ },
+ {
+  "case": "DUKE_915.nii.gz",
+  "cohort": "DUKE",
+  "dice": 0.6871059287317287,
+  "hd95_mm": 156.2714300155791,
+  "gt_volume_ml": 29.589069464046478
+ },
+ {
+  "case": "ISPY1_1005.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8247301647415263,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1007.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7955210042079738,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1017.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8662121072514513,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1027.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.946644099775256,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1036.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8050304325043331,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1040.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.946857260105328,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1042.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7844311377245509,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1051.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7643105074135752,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1053.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7399429838454229,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1072.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7976170498405772,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1074.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.03236700438024543,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1082.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7362673364639074,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1084.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8656094219164504,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1087.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8585710989771591,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1089.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8150294029544846,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1090.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8233624011356723,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1094.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.819362950544845,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1097.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9037203215554309,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1101.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.5751675071788791,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1103.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.1741864765215851,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1114.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8258288956086596,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1139.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8122840765380535,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1140.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.3642505549657369,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1141.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8981591607050929,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1145.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8698258918822338,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1148.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8516624040920716,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1149.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7855407047387606,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1150.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8883922632825179,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1151.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.004389120736796662,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1156.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7751759425330262,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1159.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9343758556694758,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1160.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7831334446637316,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1161.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9253277124362348,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1164.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9339809548156196,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1167.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.40957500290034415,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1169.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9578741373982902,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1173.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8221215414913423,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1175.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9487808423271195,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1176.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8942395611094178,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1179.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8726277826141027,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1180.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9039599453800637,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1181.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7971837927271447,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1183.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7533416721850245,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1187.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.808035501913053,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1191.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8677200213724143,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1193.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9080726839439976,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1194.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9148516963423671,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1199.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8745043680087683,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1201.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8382013391826368,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1202.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.6224132441897485,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1203.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8203305491380842,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1208.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.42581988969530454,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1210.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8859985201019486,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1215.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9473540690242863,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1218.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7205526337757743,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1219.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8050068251474489,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1221.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.49759879923134653,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1222.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8382692130270321,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1224.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9335087082728593,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1225.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8305658552313396,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1227.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.3312595050463155,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1230.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.895057749410882,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1231.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.3791727253039631,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1233.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8194293968941856,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1235.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.8446484061490338,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1236.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.7626005653402914,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY1_1238.nii.gz",
+  "cohort": "ISPY1",
+  "dice": 0.9106766622568475,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "ISPY2_105513.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8899710450118452,
+  "hd95_mm": 215.22703855101605,
+  "gt_volume_ml": 5.6915692658474075
+ },
+ {
+  "case": "ISPY2_108939.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.876871138289063,
+  "hd95_mm": 2.2848858013038638,
+  "gt_volume_ml": 4.4720458984375
+ },
+ {
+  "case": "ISPY2_108969.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5636865378860924,
+  "hd95_mm": 47.934188866663305,
+  "gt_volume_ml": 9.8698974609375
+ },
+ {
+  "case": "ISPY2_109874.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8357981593145033,
+  "hd95_mm": 3.2813998460769653,
+  "gt_volume_ml": 5.201939929097548
+ },
+ {
+  "case": "ISPY2_109980.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7949884939913066,
+  "hd95_mm": 4.0,
+  "gt_volume_ml": 14.0349997305676
+ },
+ {
+  "case": "ISPY2_111004.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.891071158785315,
+  "hd95_mm": 2.309621149860466,
+  "gt_volume_ml": 33.489519759319556
+ },
+ {
+  "case": "ISPY2_111674.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8546545066140827,
+  "hd95_mm": 116.46175270752116,
+  "gt_volume_ml": 12.60791015625
+ },
+ {
+  "case": "ISPY2_112606.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8276382752642469,
+  "hd95_mm": 190.70141588904076,
+  "gt_volume_ml": 15.739600252753007
+ },
+ {
+  "case": "ISPY2_115638.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8717257473946807,
+  "hd95_mm": 9.999999761581421,
+  "gt_volume_ml": 37.07152681357329
+ },
+ {
+  "case": "ISPY2_117424.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8989780873455692,
+  "hd95_mm": 1.5238299483169118,
+  "gt_volume_ml": 4.881659758520997
+ },
+ {
+  "case": "ISPY2_120422.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9221045628430449,
+  "hd95_mm": 1.353054417673095,
+  "gt_volume_ml": 7.829046967708406
+ },
+ {
+  "case": "ISPY2_123660.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8628539129541134,
+  "hd95_mm": 162.82994505847802,
+  "gt_volume_ml": 7.420314889173545
+ },
+ {
+  "case": "ISPY2_129973.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7749134948096886,
+  "hd95_mm": 15.536681068183322,
+  "gt_volume_ml": 12.13194386594826
+ },
+ {
+  "case": "ISPY2_132463.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9602252978165386,
+  "hd95_mm": 1.3672000169754028,
+  "gt_volume_ml": 70.21130653761904
+ },
+ {
+  "case": "ISPY2_139771.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.0,
+  "hd95_mm": null,
+  "gt_volume_ml": 70.09123809662111
+ },
+ {
+  "case": "ISPY2_141782.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8210589171974523,
+  "hd95_mm": 14.031640956504104,
+  "gt_volume_ml": 7.06846599927303
+ },
+ {
+  "case": "ISPY2_144302.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.24035686171608503,
+  "hd95_mm": 10.470286748989102,
+  "gt_volume_ml": 0.3810882719790243
+ },
+ {
+  "case": "ISPY2_145777.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9129588618213542,
+  "hd95_mm": 1.6772868359543993,
+  "gt_volume_ml": 2.8715516277770803
+ },
+ {
+  "case": "ISPY2_151230.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5480348728945067,
+  "hd95_mm": 28.895082302184225,
+  "gt_volume_ml": 24.30098876953125
+ },
+ {
+  "case": "ISPY2_151980.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5606873261819627,
+  "hd95_mm": 198.5494095424522,
+  "gt_volume_ml": 13.26036459340197
+ },
+ {
+  "case": "ISPY2_152197.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8703655639187813,
+  "hd95_mm": 1.3975424859373686,
+  "gt_volume_ml": 17.33046875
+ },
+ {
+  "case": "ISPY2_157270.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5109375,
+  "hd95_mm": 20.16301221510064,
+  "gt_volume_ml": 3.5458009744808106
+ },
+ {
+  "case": "ISPY2_159352.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7669370229007634,
+  "hd95_mm": 157.21026218181078,
+  "gt_volume_ml": 5.476135471508314
+ },
+ {
+  "case": "ISPY2_166782.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.94095582571419,
+  "hd95_mm": 2.012461126437796,
+  "gt_volume_ml": 30.662548375439666
+ },
+ {
+  "case": "ISPY2_169536.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6513761467889908,
+  "hd95_mm": 147.6339585851945,
+  "gt_volume_ml": 3.645426595894001
+ },
+ {
+  "case": "ISPY2_172168.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6744448966671189,
+  "hd95_mm": 150.13410923730706,
+  "gt_volume_ml": 5.1800537109375
+ },
+ {
+  "case": "ISPY2_180027.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9412121713702447,
+  "hd95_mm": 1.3281999826431274,
+  "gt_volume_ml": 9.762261047883598
+ },
+ {
+  "case": "ISPY2_182346.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8808761202238831,
+  "hd95_mm": 4.629509617972148,
+  "gt_volume_ml": 22.75023802642723
+ },
+ {
+  "case": "ISPY2_188091.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.929902395740905,
+  "hd95_mm": 0.9943689110435825,
+  "gt_volume_ml": 4.73521728515625
+ },
+ {
+  "case": "ISPY2_197942.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5074198455753609,
+  "hd95_mm": 221.56533549335416,
+  "gt_volume_ml": 29.29833984375
+ },
+ {
+  "case": "ISPY2_201831.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8504815002534212,
+  "hd95_mm": 1.4453999996185303,
+  "gt_volume_ml": 1.1858192729103
+ },
+ {
+  "case": "ISPY2_202535.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9150953105167465,
+  "hd95_mm": 1.0,
+  "gt_volume_ml": 17.061328125
+ },
+ {
+  "case": "ISPY2_208265.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8640029942921307,
+  "hd95_mm": 213.00405968341744,
+  "gt_volume_ml": 13.486697783577783
+ },
+ {
+  "case": "ISPY2_212307.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7952636882767887,
+  "hd95_mm": 214.76693033150713,
+  "gt_volume_ml": 22.4349609375
+ },
+ {
+  "case": "ISPY2_213328.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8244420575247643,
+  "hd95_mm": 2.089648350611128,
+  "gt_volume_ml": 5.553714712100461
+ },
+ {
+  "case": "ISPY2_220664.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8922634271099744,
+  "hd95_mm": 2.4000000953674316,
+  "gt_volume_ml": 2.794687611050904
+ },
+ {
+  "case": "ISPY2_222135.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8691798077820285,
+  "hd95_mm": 3.3913042545318604,
+  "gt_volume_ml": 7.623593078193762
+ },
+ {
+  "case": "ISPY2_229824.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7148203592814372,
+  "hd95_mm": 190.144958439523,
+  "gt_volume_ml": 16.62777698490356
+ },
+ {
+  "case": "ISPY2_236470.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8734150464919695,
+  "hd95_mm": 225.18544181468627,
+  "gt_volume_ml": 5.299837141640792
+ },
+ {
+  "case": "ISPY2_237158.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9497392008912746,
+  "hd95_mm": 1.2987091698346094,
+  "gt_volume_ml": 27.11803436279297
+ },
+ {
+  "case": "ISPY2_241705.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5949098621420997,
+  "hd95_mm": 7.067698003197472,
+  "gt_volume_ml": 2.583997699527425
+ },
+ {
+  "case": "ISPY2_253531.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8104017389904195,
+  "hd95_mm": 7.3999628436807985,
+  "gt_volume_ml": 2.8067601355951717
+ },
+ {
+  "case": "ISPY2_255388.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7805394671520768,
+  "hd95_mm": 180.15044573659588,
+  "gt_volume_ml": 8.392333984375
+ },
+ {
+  "case": "ISPY2_259899.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8178619451355508,
+  "hd95_mm": 9.08203409984285,
+  "gt_volume_ml": 34.8897216796875
+ },
+ {
+  "case": "ISPY2_262131.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8379442229849322,
+  "hd95_mm": 31.023380285525672,
+  "gt_volume_ml": 268.22008908814513
+ },
+ {
+  "case": "ISPY2_264305.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7050494231694366,
+  "hd95_mm": 10.3125,
+  "gt_volume_ml": 29.19492416381836
+ },
+ {
+  "case": "ISPY2_266509.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9406034366120958,
+  "hd95_mm": 1.1049250680157818,
+  "gt_volume_ml": 4.956811381451085
+ },
+ {
+  "case": "ISPY2_275034.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.14812796368294492,
+  "hd95_mm": 83.90018971618375,
+  "gt_volume_ml": 3.1936524129705504
+ },
+ {
+  "case": "ISPY2_282644.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8861671469740634,
+  "hd95_mm": 2.200000047683716,
+  "gt_volume_ml": 3.948001683743926
+ },
+ {
+  "case": "ISPY2_283070.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9531812252332078,
+  "hd95_mm": 1.8633899368231457,
+  "gt_volume_ml": 71.33957993159694
+ },
+ {
+  "case": "ISPY2_301289.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8917332579025529,
+  "hd95_mm": 3.365384578704834,
+  "gt_volume_ml": 12.888421674953367
+ },
+ {
+  "case": "ISPY2_301968.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8067972509952269,
+  "hd95_mm": 116.83951197989789,
+  "gt_volume_ml": 15.481718741782476
+ },
+ {
+  "case": "ISPY2_307659.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8921887257648773,
+  "hd95_mm": 1.1473474844178637,
+  "gt_volume_ml": 2.92707421875
+ },
+ {
+  "case": "ISPY2_313672.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9320533134495294,
+  "hd95_mm": 2.4000000953674316,
+  "gt_volume_ml": 5.322516866426282
+ },
+ {
+  "case": "ISPY2_317641.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5825438419673453,
+  "hd95_mm": 7.341023430013012,
+  "gt_volume_ml": 7.87890625
+ },
+ {
+  "case": "ISPY2_318293.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7594522787655835,
+  "hd95_mm": 6.216912278887828,
+  "gt_volume_ml": 4.59067475677729
+ },
+ {
+  "case": "ISPY2_318438.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8594403694648194,
+  "hd95_mm": 2.34375,
+  "gt_volume_ml": 13.147558649725397
+ },
+ {
+  "case": "ISPY2_326433.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.3895176177863392,
+  "hd95_mm": 141.88979993783366,
+  "gt_volume_ml": 3.1768798828125
+ },
+ {
+  "case": "ISPY2_327142.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8278218498380723,
+  "hd95_mm": 4.502196729444972,
+  "gt_volume_ml": 15.02633056640625
+ },
+ {
+  "case": "ISPY2_332655.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9206231454005934,
+  "hd95_mm": 2.829807855667943,
+  "gt_volume_ml": 14.947998046875
+ },
+ {
+  "case": "ISPY2_345460.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.913988713988714,
+  "hd95_mm": 1.0,
+  "gt_volume_ml": 7.9872802734375
+ },
+ {
+  "case": "ISPY2_353318.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.949121459195559,
+  "hd95_mm": 1.3101122474227003,
+  "gt_volume_ml": 17.901990471833777
+ },
+ {
+  "case": "ISPY2_356399.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9254979005354598,
+  "hd95_mm": 4.3607372758880665,
+  "gt_volume_ml": 64.7938558664142
+ },
+ {
+  "case": "ISPY2_362150.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9373653345324415,
+  "hd95_mm": 2.200000047683716,
+  "gt_volume_ml": 29.500315768893675
+ },
+ {
+  "case": "ISPY2_374106.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8552729436263573,
+  "hd95_mm": 1.25,
+  "gt_volume_ml": 1.450312557630241
+ },
+ {
+  "case": "ISPY2_375342.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.923483353491629,
+  "hd95_mm": 2.226000477313516,
+  "gt_volume_ml": 14.600665283203124
+ },
+ {
+  "case": "ISPY2_409288.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9348014232137706,
+  "hd95_mm": 1.3975424859373686,
+  "gt_volume_ml": 9.94921875
+ },
+ {
+  "case": "ISPY2_418593.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6826476076025426,
+  "hd95_mm": 128.83694851628044,
+  "gt_volume_ml": 14.416113330925718
+ },
+ {
+  "case": "ISPY2_427321.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9750565062964159,
+  "hd95_mm": 1.1325022567586418,
+  "gt_volume_ml": 94.60813883572544
+ },
+ {
+  "case": "ISPY2_435313.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7913311462372005,
+  "hd95_mm": 204.54694601728963,
+  "gt_volume_ml": 10.061279296875
+ },
+ {
+  "case": "ISPY2_443708.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9519563252363803,
+  "hd95_mm": 2.3944465707450884,
+  "gt_volume_ml": 113.8185041508364
+ },
+ {
+  "case": "ISPY2_453596.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9534113192237473,
+  "hd95_mm": 1.4062000513076782,
+  "gt_volume_ml": 15.610968941813816
+ },
+ {
+  "case": "ISPY2_467622.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9276794035414725,
+  "hd95_mm": 2.5,
+  "gt_volume_ml": 21.64522385319473
+ },
+ {
+  "case": "ISPY2_495440.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.872374586323274,
+  "hd95_mm": 2.8990586430124177,
+  "gt_volume_ml": 60.16959228515625
+ },
+ {
+  "case": "ISPY2_501303.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7598881118881119,
+  "hd95_mm": 14.671718616671997,
+  "gt_volume_ml": 10.711707882964546
+ },
+ {
+  "case": "ISPY2_516763.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7971738026738873,
+  "hd95_mm": 6.974104020465652,
+  "gt_volume_ml": 23.09656300060451
+ },
+ {
+  "case": "ISPY2_520471.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7913516296129468,
+  "hd95_mm": 183.57381629419424,
+  "gt_volume_ml": 10.696387198790914
+ },
+ {
+  "case": "ISPY2_527581.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7948778752667773,
+  "hd95_mm": 23.989434755718158,
+  "gt_volume_ml": 12.547499900281412
+ },
+ {
+  "case": "ISPY2_531988.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.4927651139742319,
+  "hd95_mm": 17.436391334768928,
+  "gt_volume_ml": 11.977400094482066
+ },
+ {
+  "case": "ISPY2_532183.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9268907932752241,
+  "hd95_mm": 3.837201613658251,
+  "gt_volume_ml": 55.54951990176506
+ },
+ {
+  "case": "ISPY2_539904.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8644964005860992,
+  "hd95_mm": 2.960775739523934,
+  "gt_volume_ml": 5.841886072260942
+ },
+ {
+  "case": "ISPY2_550421.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9434732172524148,
+  "hd95_mm": 2.6748429841567876,
+  "gt_volume_ml": 115.91969394464002
+ },
+ {
+  "case": "ISPY2_564701.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7274537512846866,
+  "hd95_mm": 166.3685460883615,
+  "gt_volume_ml": 9.512499546408659
+ },
+ {
+  "case": "ISPY2_573919.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8461209268203216,
+  "hd95_mm": 4.711027220148251,
+  "gt_volume_ml": 5.9311714548867505
+ },
+ {
+  "case": "ISPY2_579881.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7627179212292927,
+  "hd95_mm": 8.63552509886637,
+  "gt_volume_ml": 49.23491405446158
+ },
+ {
+  "case": "ISPY2_597253.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8068977357266849,
+  "hd95_mm": 5.076369889005331,
+  "gt_volume_ml": 9.52983984375
+ },
+ {
+  "case": "ISPY2_597873.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.788511780073905,
+  "hd95_mm": 7.684058368238771,
+  "gt_volume_ml": 188.20321213687018
+ },
+ {
+  "case": "ISPY2_598835.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.953136771009222,
+  "hd95_mm": 1.2000000476837158,
+  "gt_volume_ml": 18.05390696739778
+ },
+ {
+  "case": "ISPY2_622078.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9398166387328976,
+  "hd95_mm": 4.928647138357636,
+  "gt_volume_ml": 163.90055338782258
+ },
+ {
+  "case": "ISPY2_624777.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7450054929405542,
+  "hd95_mm": 3.0,
+  "gt_volume_ml": 6.391900634765625
+ },
+ {
+  "case": "ISPY2_628788.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8176950970839654,
+  "hd95_mm": 6.810768228769853,
+  "gt_volume_ml": 17.175561904907227
+ },
+ {
+  "case": "ISPY2_631337.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8395971696022685,
+  "hd95_mm": 118.85314871990863,
+  "gt_volume_ml": 154.61187097865337
+ },
+ {
+  "case": "ISPY2_638126.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5500874580437763,
+  "hd95_mm": 46.016809979031166,
+  "gt_volume_ml": 70.25350143534288
+ },
+ {
+  "case": "ISPY2_639663.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7801122493688581,
+  "hd95_mm": 157.50881461340464,
+  "gt_volume_ml": 40.55728973274432
+ },
+ {
+  "case": "ISPY2_641246.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.22113911711460799,
+  "hd95_mm": 178.07260125254945,
+  "gt_volume_ml": 2.8253173828125
+ },
+ {
+  "case": "ISPY2_654021.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7414473684210526,
+  "hd95_mm": 2.338059220132636,
+  "gt_volume_ml": 0.8454493085624282
+ },
+ {
+  "case": "ISPY2_664111.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8746928746928747,
+  "hd95_mm": 9.50591862897451,
+  "gt_volume_ml": 5.143114959303158
+ },
+ {
+  "case": "ISPY2_666450.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.2505017445271251,
+  "hd95_mm": 41.12196037398996,
+  "gt_volume_ml": 44.17890625
+ },
+ {
+  "case": "ISPY2_685795.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.905557171952284,
+  "hd95_mm": 1.8963221033915594,
+  "gt_volume_ml": 5.768174520870969
+ },
+ {
+  "case": "ISPY2_689452.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6390316318373872,
+  "hd95_mm": 6.545068657394083,
+  "gt_volume_ml": 11.49997439070941
+ },
+ {
+  "case": "ISPY2_725455.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9416145984193321,
+  "hd95_mm": 134.36116327821097,
+  "gt_volume_ml": 24.704818725585938
+ },
+ {
+  "case": "ISPY2_726940.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9329092388490273,
+  "hd95_mm": 1.816499948501587,
+  "gt_volume_ml": 9.951810941725304
+ },
+ {
+  "case": "ISPY2_727255.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8878832890024987,
+  "hd95_mm": 18.971063977945523,
+  "gt_volume_ml": 29.40800996627145
+ },
+ {
+  "case": "ISPY2_736721.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9224632746376107,
+  "hd95_mm": 2.7263946044295384,
+  "gt_volume_ml": 14.941062927246094
+ },
+ {
+  "case": "ISPY2_745633.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8899628252788104,
+  "hd95_mm": 2.8053520125234397,
+  "gt_volume_ml": 5.177924725663665
+ },
+ {
+  "case": "ISPY2_783578.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.870995886825377,
+  "hd95_mm": 1.6666666269302368,
+  "gt_volume_ml": 2.981249857842924
+ },
+ {
+  "case": "ISPY2_783771.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8775630359656982,
+  "hd95_mm": 2.8222587496773195,
+  "gt_volume_ml": 18.185558610396626
+ },
+ {
+  "case": "ISPY2_791321.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8082586677054928,
+  "hd95_mm": 111.57942728530938,
+  "gt_volume_ml": 22.226485258201137
+ },
+ {
+  "case": "ISPY2_793155.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7991219512195122,
+  "hd95_mm": 3.0660180884895825,
+  "gt_volume_ml": 3.870473098754883
+ },
+ {
+  "case": "ISPY2_801641.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8173474413121017,
+  "hd95_mm": 8.348839739748273,
+  "gt_volume_ml": 11.444921875
+ },
+ {
+  "case": "ISPY2_814299.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5423666235923943,
+  "hd95_mm": 84.27689136790495,
+  "gt_volume_ml": 2.42083622595704
+ },
+ {
+  "case": "ISPY2_828199.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7923153535671227,
+  "hd95_mm": 5.484016012644845,
+  "gt_volume_ml": 13.345307412905271
+ },
+ {
+  "case": "ISPY2_830486.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9432742735648476,
+  "hd95_mm": 1.3837054857249347,
+  "gt_volume_ml": 13.15779499523435
+ },
+ {
+  "case": "ISPY2_846156.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8709195598882618,
+  "hd95_mm": 103.57357033998152,
+  "gt_volume_ml": 29.73194302671487
+ },
+ {
+  "case": "ISPY2_859699.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.7028092656481025,
+  "hd95_mm": 5.713833382869473,
+  "gt_volume_ml": 5.070246992601577
+ },
+ {
+  "case": "ISPY2_863161.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8164384627353353,
+  "hd95_mm": 189.74220921300366,
+  "gt_volume_ml": 16.396002197265624
+ },
+ {
+  "case": "ISPY2_870077.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9173693086003373,
+  "hd95_mm": 1.4062000513076782,
+  "gt_volume_ml": 9.593448309581976
+ },
+ {
+  "case": "ISPY2_872188.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.948415622697126,
+  "hd95_mm": 0.7031000256538391,
+  "gt_volume_ml": 10.360184627261976
+ },
+ {
+  "case": "ISPY2_877463.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6510826870782556,
+  "hd95_mm": 173.38106711399502,
+  "gt_volume_ml": 27.03466697712429
+ },
+ {
+  "case": "ISPY2_887594.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8990969054930678,
+  "hd95_mm": 3.5925269657999785,
+  "gt_volume_ml": 19.427734375
+ },
+ {
+  "case": "ISPY2_894673.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.5175515577007459,
+  "hd95_mm": 222.11055497379456,
+  "gt_volume_ml": 5.7575439453125
+ },
+ {
+  "case": "ISPY2_896621.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8774408636291475,
+  "hd95_mm": 1.5456030611581704,
+  "gt_volume_ml": 4.318055349654624
+ },
+ {
+  "case": "ISPY2_916586.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8457208009691441,
+  "hd95_mm": 23.88142096484882,
+  "gt_volume_ml": 15.732774062664248
+ },
+ {
+  "case": "ISPY2_930172.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.924456686260225,
+  "hd95_mm": 5.364082047397079,
+  "gt_volume_ml": 85.093511050906
+ },
+ {
+  "case": "ISPY2_960490.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9416481069042316,
+  "hd95_mm": 2.218065270449011,
+  "gt_volume_ml": 28.338683997500286
+ },
+ {
+  "case": "ISPY2_962472.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8619612742036228,
+  "hd95_mm": 9.209777187164283,
+  "gt_volume_ml": 63.99404660947328
+ },
+ {
+  "case": "ISPY2_973837.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6709464970846802,
+  "hd95_mm": 11.682121140687727,
+  "gt_volume_ml": 10.147061920166015
+ },
+ {
+  "case": "ISPY2_981461.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.8999620493358633,
+  "hd95_mm": 1.3867324552369373,
+  "gt_volume_ml": 6.031980807232779
+ },
+ {
+  "case": "ISPY2_981664.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.6255039536696737,
+  "hd95_mm": 39.31810608411185,
+  "gt_volume_ml": 12.77729454986109
+ },
+ {
+  "case": "ISPY2_986734.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9103436144013135,
+  "hd95_mm": 1.2174781516014006,
+  "gt_volume_ml": 33.852717324649895
+ },
+ {
+  "case": "ISPY2_991818.nii.gz",
+  "cohort": "ISPY2",
+  "dice": 0.9104261711360855,
+  "hd95_mm": 1.1718000173568726,
+  "gt_volume_ml": 3.1643441643214527
+ },
+ {
+  "case": "NACT_02.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9375784548670547,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_08.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.6312706943312091,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_09.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9131485828399257,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_13.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.7995031437681679,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_17.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.4461942257217848,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_18.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.7665984639563502,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_27.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9177226485811173,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_28.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.6881522313675149,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_29.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.7839792365783802,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_32.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9153968498281257,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_39.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.7676680120269794,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_41.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.953653819588341,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_44.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9387512569704726,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_55.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9129034295458852,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_57.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.9295536070147469,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_60.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.8586711042434327,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ },
+ {
+  "case": "NACT_67.nii.gz",
+  "cohort": "NACT",
+  "dice": 0.6451494421743722,
+  "hd95_mm": 0.0,
+  "gt_volume_ml": 0.0
+ }
+]

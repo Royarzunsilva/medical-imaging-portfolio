@@ -1,0 +1,2 @@
+fails_mini,fails_nnunet,discordant_mini_only,discordant_nnunet_only,p_mcnemar_exact
+8,1,7,0,0.015625

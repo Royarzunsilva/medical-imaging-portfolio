@@ -1,0 +1,29 @@
+{
+  "study": "external validation of the deployed mammography model, no retraining and no refitting",
+  "source_domain": "Mammo-MX (Mexico)",
+  "target_domain": "TOMPEI-CMMD (China)",
+  "n_breasts": 2447,
+  "target_prevalence_birads_ge4": 0.435,
+  "auc_birads_ge4_internal_holdout": 0.880,
+  "auc_birads_ge4_external": 0.8072,
+  "auc_birads_ge4_external_ci95": [0.790, 0.825],
+  "distribution_shift_monitor": "fires on a 50-study batch (p = 1.5e-18), correctly demanding recalibration",
+
+  "triage_lanes_with_imported_thresholds": {
+    "urgent_lane_workload": 0.9436,
+    "urgent_lane_ppv": 0.4595,
+    "urgent_lane_capture_of_actionable_cases": 0.9972,
+    "rule_out_lane_workload": 0.0004,
+    "rule_out_lane_actionable_cases_missed": 0.0
+  },
+  "triage_lanes_recalibrated_on_150_local_cases": {
+    "protocol": "mean over 30 random draws of 150 local calibration cases, evaluated on the rest",
+    "urgent_lane_workload": 0.4308,
+    "urgent_lane_ppv": 0.6976,
+    "urgent_lane_capture_of_actionable_cases": 0.6751,
+    "rule_out_lane_workload": 0.1542,
+    "rule_out_lane_actionable_cases_missed": 0.0324,
+    "rule_out_lane_actionable_cases_missed_worst_draw": 0.105
+  },
+  "reading": "The ranking transfers; the operating points do not. Imported unchanged, the urgent lane absorbs 94% of the worklist at 46% PPV and ranks nothing."
+}

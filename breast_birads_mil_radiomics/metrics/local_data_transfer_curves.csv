@@ -1,0 +1,27 @@
+strategy,modality,transfer,local_cases,quadratic_weighted_kappa,auc_birads_ge4
+recalibrate thresholds only,ultrasound,Brazil to Poland,0,0.376,
+recalibrate thresholds only,ultrasound,Brazil to Poland,25,0.380,
+recalibrate thresholds only,ultrasound,Brazil to Poland,50,0.388,
+recalibrate thresholds only,ultrasound,Brazil to Poland,150,0.378,
+recalibrate thresholds only,mammography,China to India,0,0.314,
+recalibrate thresholds only,mammography,China to India,25,0.372,
+recalibrate thresholds only,mammography,China to India,50,0.374,
+recalibrate thresholds only,mammography,China to India,150,0.357,
+retrain source only,ultrasound,target n=252,25,0.337,0.774
+retrain source only,ultrasound,target n=252,100,0.333,0.770
+retrain source only,ultrasound,target n=252,150,0.320,0.760
+retrain local only,ultrasound,target n=252,25,0.240,0.698
+retrain local only,ultrasound,target n=252,100,0.324,0.756
+retrain local only,ultrasound,target n=252,150,0.336,0.782
+retrain source plus local,ultrasound,target n=252,25,0.383,0.774
+retrain source plus local,ultrasound,target n=252,100,0.419,0.785
+retrain source plus local,ultrasound,target n=252,150,0.421,0.781
+retrain source only,mammography,target n=269,25,0.308,0.747
+retrain source only,mammography,target n=269,100,0.298,0.747
+retrain source only,mammography,target n=269,150,0.303,0.747
+retrain local only,mammography,target n=269,25,0.296,0.689
+retrain local only,mammography,target n=269,100,0.430,0.771
+retrain local only,mammography,target n=269,150,0.465,0.796
+retrain source plus local,mammography,target n=269,25,0.341,0.783
+retrain source plus local,mammography,target n=269,100,0.346,0.802
+retrain source plus local,mammography,target n=269,150,0.351,0.814

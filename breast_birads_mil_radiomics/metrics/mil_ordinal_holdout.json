@@ -1,0 +1,50 @@
+{
+  "task": "BI-RADS category and BI-RADS>=4 decision, per breast (multi-view bag)",
+  "dataset": "Mammo-MX (full-field digital mammography, Mexico)",
+  "split": "patient-block holdout, frozen and hash-verified before any feature extraction",
+  "n_holdout_breasts": 495,
+  "holdout_category_prevalence": {
+    "BI-RADS_1": 103, "BI-RADS_2": 150, "BI-RADS_3": 46,
+    "BI-RADS_4": 121, "BI-RADS_5": 66, "BI-RADS_6": 9
+  },
+  "majority_class_baseline_accuracy": 0.3030,
+  "prevalence_birads_ge4": 0.3960,
+
+  "deployed_model": {
+    "ordinal_head": "cumulative binary decomposition, P(y > k) per cut",
+    "argmax_no_issuing_policy": {
+      "auc_birads_ge4": 0.8797,
+      "exact_category_accuracy": 0.4747,
+      "within_one_category": 0.8465,
+      "quadratic_weighted_kappa": 0.67
+    },
+    "under_the_issuing_policy": {
+      "auc_birads_ge4": 0.880,
+      "exact_category_accuracy": 0.453,
+      "within_one_category": 0.869,
+      "quadratic_weighted_kappa": 0.730,
+      "unweighted_kappa_6_categories": 0.308,
+      "kappa_at_decision_boundary_ge4": 0.595,
+      "undercall_rate_birads_ge4": 0.117
+    }
+  },
+
+  "corn_challenger_rejected": {
+    "ordinal_head": "CORN, conditional ordinal regression (Shi, Cao & Raschka 2021)",
+    "n_holdout_breasts": 495,
+    "auc_birads_ge4": 0.8635,
+    "exact_category_accuracy": 0.503,
+    "within_one_category": 0.7939,
+    "quadratic_weighted_kappa": 0.6283,
+    "mean_probability_mass_on_the_modal_category": 0.5792,
+    "pre_registered_acceptance_rule": "adopt only if exact-category accuracy gains >= 5 points with no rise in undercalling",
+    "observed_gain_in_exact_accuracy_points": 2.8,
+    "verdict": "rejected: gain was half the bar and was paid for in within-one, weighted kappa and AUC"
+  },
+
+  "human_reference": {
+    "source": "Duijm et al., 21 expert readers, screening mammography (PMC3500788)",
+    "unweighted_kappa_6_categories": 0.37,
+    "kappa_binary_further_work_up": 0.53
+  }
+}

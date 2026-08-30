@@ -1,0 +1,5 @@
+dataset,modality,feature_set,holdout_auc_birads_ge4
+BUS-BRA,ultrasound,expert ROI - all features,0.940
+BUS-BRA,ultrasound,expert ROI - 23 shape features only,0.923
+BUS-BRA,ultrasound,expert ROI - shape features removed,0.852
+BUS-BRA,ultrasound,detector pseudo-ROI - all features,0.798

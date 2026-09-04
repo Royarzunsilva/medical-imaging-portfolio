@@ -1,10 +1,11 @@
 # Applied AI — Medical Imaging & Clinical ML
 
 Seven projects in applied machine learning for medicine, built and evaluated by a
-**physician with three years of radiation oncology training, working as an ML
-engineer**. The combination is the point: the
-same person defines the clinical target, trains the model, and then attacks the result
-until it either survives or is reported as failing.
+**physician with three years of radiation oncology training**, working **AI-assisted as
+an advanced Claude user (Claude Pro Max)**. The combination is the point: the same person
+defines the clinical target a clinician would defend, directs and reviews the
+implementation, and then attacks the result until it either survives or is reported as
+failing.
 
 Every project ships the metric as computed — not rounded up, not cherry-picked — and
 several of them exist mainly because a number that looked good turned out not to be.
@@ -132,6 +133,14 @@ Validation MAE **0.0374** (epoch 59). The lighter variant is **7.3× smaller** (
 
 ## Author
 
-Physician — three years of radiation oncology training — and ML engineer. Medical image
-segmentation, model evaluation, and clinical deployment — DICOM/NIfTI, nnU-Net,
-PyTorch, CUDA.
+Physician — three years of radiation oncology training. My work is the translation
+layer: turning a clinical need into a machine-learning problem worth solving, and
+auditing what comes back. Medical image segmentation, model evaluation and clinical
+deployment — DICOM/NIfTI, nnU-Net, PyTorch, CUDA.
+
+The code here is written **AI-assisted**, as an advanced Claude user on Claude Pro Max:
+the models write and refactor alongside me; I specify, direct, review and verify. That
+is stated because it is how the work was done, and because it is not the hard part — the
+scarce skill in medical AI is knowing which target is clinically real and which number
+is an artefact. Two of the entries above exist because I found the artefact in my own
+earlier analysis.
